@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokémon Smash or Pass</title>
+    <!-- Add CSS stylesheets and JavaScript files here -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- Add your logo or website name here -->
+        <h1>Pokémon Smash or Pass</h1>
+      </div>
+      <nav>
+        <ul>
+          <!-- Add navigation links here -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="score">
+        <!-- Display the score dynamically using JavaScript -->
+        Score: <span id="smashScoreValue">0</span> (Smash) -
+        <span id="passScoreValue">0</span> (Pass)
+      </div>
+      <div id="pokemonCard">
+        <!-- Pokémon card goes here -->
+        <div class="card">
+          <img id="pokemonImage" src="" alt="Pokemon Image" />
+          <h2 id="pokemonName">Pikachu</h2>
+          <p id="pokemonIndex">#1 of 898</p>
+          <div class="buttons">
+            <button id="smashButton" onclick="smash()">Smash</button>
+            <button id="passButton" onclick="pass()">Pass</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <!-- Add footer links here -->
+        <li><a href="#">About</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
